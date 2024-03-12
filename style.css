@@ -1,0 +1,318 @@
+/* style.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Navbar styles */
+/* Custom CSS for the navbar */
+
+/* Navbar background color */
+.navbar {
+    background-color: #ffffff; /* Set background color */
+    position: fixed;
+}
+
+/* Navbar brand text */
+.navbar-brand {
+    color: #333333; /* Set text color */
+    font-weight: bold; /* Set font weight */
+    font-size: 24px; /* Set font size */
+}
+
+/* Navbar toggler icon color */
+.navbar-toggler-icon {
+    color: #333333; /* Set icon color */
+}
+
+/* Navbar links */
+.navbar-nav .nav-link {
+    color: #333333; /* Set text color */
+    font-weight: 500; /* Set font weight */
+}
+
+/* Navbar active link */
+.navbar-nav .nav-link.active {
+    color: #007bff; /* Set active link color */
+}
+
+/* Navbar dropdown menu background color */
+.navbar-nav .dropdown-menu {
+    background-color: #ffffff; /* Set dropdown menu background color */
+}
+
+/* Navbar dropdown menu links */
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #333333; /* Set dropdown item text color */
+}
+
+/* Navbar dropdown menu link on hover */
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Set background color on hover */
+    color: #007bff; /* Set text color on hover */
+}
+
+/* Navbar dropdown menu link active */
+.navbar-nav .dropdown-menu .dropdown-item.active {
+    background-color: #007bff; /* Set active item background color */
+    color: #ffffff; /* Set active item text color */
+}
+
+/* Carousel styles */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+}
+
+.carousel-caption p {
+    font-size:4rem;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-caption button {
+    background-color: #ff008c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carousel-caption button:hover {
+    background-color: #0056b3;
+}
+h3 {
+    margin-left: 20px;
+   font-weight: 900;
+}
+
+/* Snap container */
+.shot {
+    display: flex; /* Display snaps in a row */
+    justify-content: center; /* Center align snaps */
+}
+
+/* Individual snap */
+.snap {
+    margin: 30px; /* Add space between snaps */
+    text-align: center; /* Center align snap contents */
+}
+
+.snap img {
+    border-radius: 50%; /* Make image circular */
+    width: 150px; /* Set image width */
+    height: 150px; /* Set image height */
+    object-fit: cover; /* Ensure the image covers the entire circular area */
+}
+/* style.css */
+
+/* style.css */
+
+/* Global thought leadership study */
+.global-thought {
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Make text bold */
+    color: #333; /* Set text color */
+}
+
+/* Border for row */
+
+   
+/* About box */
+.about-box {
+    text-align: center; /* Center align content */
+}
+
+/* About box title */
+.about-box h1 {
+    font-size: 50px; /* Set title font size */
+    font-weight: bold; /* Make title bold */
+    color: #333; /* Set title color */
+    line-height: 1.5; /* Set line height */
+}
+
+/* About box image */
+.about-box img {
+    max-width: 100%; /* Make image responsive */
+    height: 400px; /* Maintain aspect ratio */
+    display: block; /* Display as block element */
+    margin: 0 auto; /* Center align image horizontally */
+}
+/* style.css */
+
+/* Card group */
+.card-group {
+    display: flex; /* Display cards in a row */
+    justify-content: center; /* Center align cards */
+}
+
+/* Individual cards */
+/* style.css */
+
+/* Card group */
+.card-group {
+    display: flex; /* Display cards in a row */
+    justify-content: center; /* Center align cards */
+}
+
+/* Individual cards */
+.card {
+    width: 300px; /* Set card width */
+    margin: 40px; /* Add space between cards */
+    border: none; /* Remove default card border */
+    overflow: hidden; /* Hide overflow content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.card:hover img {
+    transform: scale(1.1); /* Zoom in image on hover */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.card-img-top {
+    width: 100%; /* Make image fill the card width */
+    height: 250px; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Add smooth transition */
+}
+
+.card-body {
+    text-align: center; /* Center align text within card body */
+    padding: 20px; /* Add padding */
+}
+
+.card-title {
+    font-size: 1.2rem; /* Set card title font size */
+    font-weight: bold; /* Make card title bold */
+    color: #333; /* Set card title color */
+    margin-bottom: 10px; /* Add space below title */
+}
+
+button {
+    background-color: #ff006a; /* Set button background color */
+    color: #fff; /* Set button text color */
+    border: none; /* Remove button border */
+    padding: 8px 16px; /* Add padding */
+    border-radius: 4px; /* Add border radius */
+    cursor: pointer; /* Add pointer cursor */
+}
+
+button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+}
+/* Add custom styling for the image and text layout */
+.w3l-specification-6 .specification-layout {
+    padding: 60px 0;
+  }
+  
+  .back-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .about-right-faq {
+    padding: 0 20px;
+  }
+  
+  .title-big {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .para {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+/* Custom CSS for the footer section */
+
+/* Footer wrapper and background */
+.footer-wrappper {
+    background-color: #f8f9fa; /* Set background color */
+    padding: 50px 0; /* Add padding */
+}
+
+/* Footer area */
+.footer-area {
+    padding-bottom: 30px; /* Add padding to the bottom */
+}
+
+/* Footer logo */
+.footer-logo img {
+    max-width: 100px; /* Set max width for the logo */
+}
+
+/* Footer text content */
+.footer-pera {
+    font-size: 14px; /* Set font size */
+    color: #666; /* Set text color */
+}
+
+/* Footer social icons */
+.footer-social a {
+    color: #333; /* Set icon color */
+    margin-right: 10px; /* Add margin between icons */
+}
+
+/* Footer title */
+.footer-tittle h4 {
+    font-size: 18px; /* Set title font size */
+    color: #333; /* Set title color */
+    margin-bottom: 15px; /* Add margin at the bottom */
+}
+
+/* Footer links */
+.footer-tittle ul {
+    list-style-type: none; /* Remove list style */
+    padding: 0; /* Remove default padding */
+}
+
+.footer-tittle ul li {
+    margin-bottom: 8px; /* Add margin between list items */
+}
+
+.footer-tittle ul li a {
+    font-size: 14px; /* Set font size for links */
+    color: #666; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add transition for color change */
+}
+
+.footer-tittle ul li a:hover {
+    color: #333; /* Change link color on hover */
+}
+
+/* Footer bottom area */
+.footer-bottom-area {
+    background-color: #2c2c2d; /* Set background color */
+    padding: 20px 0; /* Add padding */
+}
+
+/* Footer copy right text */
+.footer-copy-right {
+    font-size: 14px; /* Set font size */
+    color: white; /* Set text color */
+}
+
+.footer-copy-right p {
+    margin-bottom: 0; /* Remove margin at the bottom */
+}
+
+.footer-copy-right a {
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Add transition for color change */
+}
+
+.footer-copy-right a:hover {
+    color: #000; /* Change link color on hover */
+}
+
+
